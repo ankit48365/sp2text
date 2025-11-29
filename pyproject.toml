@@ -1,0 +1,11 @@
+[project]
+name = "sp2text"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pocketsphinx>=5.0.4",
+    "pyaudio>=0.2.14",
+    "speechrecognition>=3.14.4",
+]
