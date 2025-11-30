@@ -1,11 +1,15 @@
 [project]
 name = "sp2text"
 version = "0.1.0"
-description = "Add your description here"
+description = "Can be run offline, run it online once to download reqired models from OpenAI Wisper"
 readme = "README.md"
+authors = [
+    { name = "ankit K", email = "ankit48365@gmail.com" }
+]
 requires-python = ">=3.12"
 dependencies = [
-    "pocketsphinx>=5.0.4",
+    "openai-whisper>=20250625",
     "pyaudio>=0.2.14",
     "speechrecognition>=3.14.4",
 ]
+

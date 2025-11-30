@@ -1,3 +1,12 @@
+"""
+install these 
+    "pocketsphinx>=5.0.4",
+    "pyaudio>=0.2.14",
+    "speechrecognition>=3.14.4",
+    
+"""
+
+
 import speech_recognition as sr
 import pyaudio
 import os

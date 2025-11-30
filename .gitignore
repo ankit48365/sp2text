@@ -13,6 +13,7 @@ __pycache__/
 *.pid
 *.err
 *.pyc
+*.txt
 
 # Distribution / packaging
 .Python
